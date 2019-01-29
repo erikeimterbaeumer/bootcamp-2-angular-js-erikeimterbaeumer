@@ -1,3 +1,6 @@
+* {
+  font-family: 'Playfair Display', serif;
+}
 #searchBar {
   margin: 15px 10px;
 }
@@ -6,3 +9,68 @@
   max-height: 400px;
   overflow: auto;
 }
+
+h1 {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 60px;
+  font-weight: 900;
+  color: #FA4616;
+}
+
+#btn-details {
+  background-color: #0021A5;
+  border-color: #0021A5;
+}
+
+#btn-remove {
+  background-color: #FA4616;
+  border-color: #FA4616;
+}
+
+#btn-add {
+  background-color: #0021A5;
+  border-color: #0021A5;
+  margin-top: 30px;
+}
+
+#header {
+  background-image: url("campus.jpg");
+  background-color: #cccccc;
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+.addArea {
+  text-align: center;
+}
+
+#searchArea {
+  margin-bottom: 100px;   
+}
+
+#cardArea {
+  padding: 30px;
+}
+
+#card {
+  padding: 30px;
+  margin-bottom: 20px; 
+  -webkit-box-shadow: 0px 4px 28px 0px rgba(219,219,219,1);
+  -moz-box-shadow: 0px 4px 28px 0px rgba(219,219,219,1);
+  box-shadow: 0px 4px 28px 0px rgba(219,219,219,1);
+}
+
+#card-body {
+  float: left;
+}
+
+.card-body {
+  text-align: left;
+}
+
+
